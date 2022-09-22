@@ -44,7 +44,7 @@ class PorductsController extends Controller
      */
     public function store(Request $request)
     {
-      
+       
         $Porducts = new Porducts;
         $Porducts->ProductTitle =$request->Input('ProductTitle');
         $Porducts->Descripion =$request->Input('Descripion');

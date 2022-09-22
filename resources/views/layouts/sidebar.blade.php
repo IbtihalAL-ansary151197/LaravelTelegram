@@ -55,23 +55,23 @@
             </a>
       
             <ul class="nav nav-treeview">
-             
+              
               <li class="nav-item">
-                <a href="Product/create" class="nav-link">
+                <a href="{{route('product.create')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Add Porducts</p>
                 </a>
               </li>
 
               <li class="nav-item">
-                <a href="Product" class="nav-link">
+                <a href="{{route('product.index')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>All Porducts</p>
                 </a>
               </li>
 
               <li class="nav-item">
-                <a href="TableProduct/show" class="nav-link">
+                <a href="{{route('product.show')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>All Table Porducts</p>
                 </a>

@@ -42,7 +42,7 @@
         <td>{{ $porduct->ProductTitle }}</td>
         <td>{{ $porduct->Descripion }}</td>
         <td>
-        <img class="card-img-top"  class="img-thumbnail" src="{{ asset('uploaded_file/Porducts/'.$porduct->photos ?? "") }}" alt="Card image cap">
+        <img class="card-img-top"  class="img-thumbnail" src="{{ asset('uploaded_file/Porducts/'.$porduct->photos ?? "") }}" alt="Card image cap"  style="width: 50%">
         </td>
         <td> 
         

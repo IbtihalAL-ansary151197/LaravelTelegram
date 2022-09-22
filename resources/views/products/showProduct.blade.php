@@ -7,9 +7,9 @@
         <div class="row">
           @foreach($products as $porduct)
     
-       <div class="col-lg-3 col-8"> 
+       <div class="col-4  d-flex  justify-content-between pt-19px" > 
         <div class="card">
-             <img class="card-img-top" src="{{ asset('uploaded_file/Porducts/'.$porduct->photos ?? "") }}" alt="Card image cap">
+             <img class="card-img-top" src="{{ asset('uploaded_file/Porducts/'.$porduct->photos ?? "") }}" alt="Card image cap" style="height: 50%">
           <div class="card-body">
             <h4>{{ $porduct->ProductTitle }}</h4>
             <p class="card-text">{{ $porduct->Descripion }}</p>

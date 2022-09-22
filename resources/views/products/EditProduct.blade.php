@@ -39,10 +39,7 @@
           <input type="file" name="photos" class="form-control" id="exampleInputEmail1">
         </div>
      
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
+      
       </div>
       <!-- /.card-body -->
 

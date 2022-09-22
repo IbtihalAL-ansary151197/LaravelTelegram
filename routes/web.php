@@ -43,15 +43,15 @@ Route::post('admin/login', [AdminLoginController::class, 'handleLogin'])->name('
 
 // ###  product
 
-Route::get('product', [PorductsController::class, 'index'])->name('product.index');
-Route::get('Product/create', [PorductsController::class, 'create'])->name('product.create');
-Route::post('product/store', [PorductsController::class, 'store'])->name('product.store');
-Route::get('TableProduct/show', [PorductsController::class, 'show'])->name('product.show');
+Route::get('/product', [PorductsController::class, 'index'])->name('product.index');
+Route::get('/Product/create', [PorductsController::class, 'create'])->name('product.create');
+Route::post('/product/store', [PorductsController::class, 'store'])->name('product.store');
+Route::get('/TableProduct/show', [PorductsController::class, 'show'])->name('product.show');
 
 ###  Edit product
 
-Route::get('product/{porducts}/edit', [PorductsController::class, 'edit'])->name('product.edit');
-Route::put('Product/{id}/update', [PorductsController::class, 'update'])->name('products.update');
+Route::get('/product/{porducts}/edit', [PorductsController::class, 'edit'])->name('product.edit');
+Route::put('/Product/{id}/update', [PorductsController::class, 'update'])->name('products.update');
 
 
 
